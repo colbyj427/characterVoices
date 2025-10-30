@@ -11,3 +11,7 @@ it is api_key on line 45.
 To set environment variable:
 
 export OPENAI_API_KEY="keyhere"
+
+start the program with:
+
+npm run dev
