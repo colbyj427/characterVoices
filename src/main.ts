@@ -42,7 +42,7 @@ async function startSessionForCharacter(id: string, name: string, instructions: 
     statusEl.textContent = `Connecting as ${name}...`;
     try {
         await session.connect({
-            apiKey: 'ek_6903a703b67c8191a9282580b0c896a8',
+            apiKey: 'ek_8',
         });
         currentSession = session;
         statusEl.textContent = `Connected: ${name}. Start talking.`;
